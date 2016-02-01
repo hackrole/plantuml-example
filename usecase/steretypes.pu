@@ -1,0 +1,11 @@
+@startuml
+use << human >>
+:main database: as mysql << application >>
+(start) << one shot >>
+(use the application) as (use) << main >>
+
+user -> (start)
+user --> (use)
+
+mysql --> (use)
+@enduml

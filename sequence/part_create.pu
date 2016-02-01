@@ -1,0 +1,12 @@
+@startuml
+bob -> alice : hello
+
+create other
+alice -> other : new
+
+create control string
+alice -> string
+note right : you can also put notes!
+
+alice --> bob : ok
+@enduml

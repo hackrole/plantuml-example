@@ -1,0 +1,11 @@
+@startuml
+
+box "Internal service " #LightBlue
+    participant bob
+    participant alice
+end box
+participant other
+
+bob -> alice : hello
+alice -> other : hello
+@enduml

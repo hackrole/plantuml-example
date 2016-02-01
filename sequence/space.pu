@@ -1,0 +1,10 @@
+@startuml
+alice -> bob : message 1
+bob --> alice : ok
+|||
+alice -> bob : message 2
+bob --> alice : ok
+||45||
+alice -> bob : message 3
+bob -> alice : ok
+@enduml

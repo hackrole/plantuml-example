@@ -1,0 +1,6 @@
+@startuml
+title Simple <b>Usecase</b>\nwith one actor
+
+"use the application" as (use)
+user -> (use)
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+participant alice
+participant "the **famous** bob" as Bob
+
+alice -> bob : hello --there--
+... Some ~~long deplay~~ ...
+note left
+    this is **bold**
+    this is //italics//
+    this is ""monosapced""
+    this is --stroked--
+    this is __underlined__
+    this is ~~waved~~
+end note
+alice -> bob : A //well formatted// message
+note right of alice
+    this is <back:cadetblue><size:18>displayed</size></back>
+    __left of__ alice.
+end note
+note left of bob
+    <u:red>this</u> is <color #118888>displayed</color>
+    **<color purple>left of </color> <s:red>alice</strike> bob**.
+end note
+note over alice, bob
+    <w:#FF33FF>this is hosted</w> by <img sourceforge.jpg>
+end note
+@enduml

@@ -1,0 +1,5 @@
+@startuml
+:actor1: --> (usecase1)
+newpage
+:actor2: --> (usecase2)
+@enduml

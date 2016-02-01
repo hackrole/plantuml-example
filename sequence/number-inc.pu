@@ -1,0 +1,13 @@
+@startuml
+autonumber
+bob -> alice : auth request
+bob <- alice : auth resposne
+
+autonumber 15
+bob -> alice: another auth request
+bob <- alice: another auth response
+
+autonumber 40 10
+bob -> alice : yet another auth req
+bob <- alice: yet anthoer auth res
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+[-> a : do work
+activate a
+
+a -> a : internal call
+activate a
+
+a ->] : << create request >>
+
+a <--] : request created
+deactivate a
+[<- a : done
+deactivate a
+@enduml

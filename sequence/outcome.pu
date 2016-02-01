@@ -1,0 +1,17 @@
+@startuml
+[-> bob
+[o-> bob
+[o->o bob
+[x-> bob
+
+[<- bob
+[x<- bob
+
+bob ->]
+bob ->o]
+bob o->o]
+bob ->x]
+
+bob <-]
+bob x<-]
+@enduml

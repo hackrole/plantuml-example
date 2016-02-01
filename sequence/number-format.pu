@@ -1,0 +1,13 @@
+@startuml
+autonumber "<b>[000]"
+bob -> alice : auth requset
+bob <- alice : auth res
+
+autonumber 15 "<b>(<u>##</u>)"
+bob -> alice : auth req
+bob <- alice : auth res
+
+autonumber 40 10 "<font color=red><b>Message 0  "
+bob -> alice : yet another auth req
+bob <- alice : yet another auth res
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+:main admin: as admin
+(use the application) as (use)
+
+user <|-- admin
+(Start) <|-- (use)
+@enduml

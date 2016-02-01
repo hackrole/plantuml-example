@@ -1,0 +1,8 @@
+@startuml
+
+user -> (start)
+user --> (use the application) : a small label
+
+:Main admin: ---> (use the application) : this is \nyet another\nlabel
+
+@enduml

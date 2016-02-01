@@ -1,0 +1,11 @@
+@startuml
+title
+    <u>simole</u> communication example
+    on <i>several</i> lines and using <font color=red>html</font>
+    this is hosted by <img:sourceforge.jpg>
+end title
+
+alice -> bob : auth req
+bob -> alice : auth res
+
+@enduml

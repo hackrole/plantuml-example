@@ -1,0 +1,16 @@
+@startuml
+participant user
+
+user -> a : do work
+activate a
+a -> b : << create req >>
+activate b
+b -> c : do work
+activate c
+c --> b : workdone
+destroy c
+b --> a : request created
+deactivate b
+a -> user : done
+deactivate a
+@enduml

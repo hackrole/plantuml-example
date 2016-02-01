@@ -1,0 +1,5 @@
+@startuml
+title Simple communication example
+alice -> bob : auth req
+bob --> alice : auth res
+@enduml

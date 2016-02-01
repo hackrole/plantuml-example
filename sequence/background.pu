@@ -1,0 +1,15 @@
+@startuml
+actor Bob #red
+' The only difference between actor
+' and participant is the drawing
+participant alice
+participant "I have a really\nlong name" as L #99FF99
+/'
+ ' you can also declare:
+ ' participant L as "I have a really\nlong name" #99FF99
+ '/
+
+alice -> Bob : Authentication Request
+Bob -> alice: Authtication Response
+Bob -> L : Log transaction
+@enduml

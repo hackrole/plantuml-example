@@ -1,0 +1,7 @@
+@startuml
+alice -> bob : auth req
+...
+bob --> alice : auth res
+...5 minutes latter...
+bob --> alice : bye !
+@enduml

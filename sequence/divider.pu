@@ -1,0 +1,11 @@
+@startuml
+
+== initialization ==
+alice -> bob : auth req
+bob -> alice : auth res
+
+== repetition ==
+alice -> bob : another auth req
+alice <- bob: another auth res
+
+@enduml

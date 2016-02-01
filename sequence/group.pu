@@ -1,0 +1,19 @@
+@startuml
+alice -> bob : auth req
+
+alt successfule case
+    bob -> alice : auth accept
+
+else some kind of failure
+    bob -> alice : auth fail
+    group My own lable
+    alice -> log : log attack start
+    loop 1000 times
+        alice -> bob : dns attack
+    end
+    alice -> log : log attack end
+    end
+else another type of failure
+    bob -> alice : please repeat
+end
+@enduml

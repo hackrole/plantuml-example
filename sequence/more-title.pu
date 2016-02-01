@@ -1,0 +1,7 @@
+@startuml
+title __simple__ **communication** example\non serverl lines
+
+alice -> bob : auth req
+bob -> alice : auth res
+
+@enduml

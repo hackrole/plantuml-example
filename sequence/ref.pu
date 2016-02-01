@@ -1,0 +1,12 @@
+@startuml
+participant alice
+actor bob
+
+ref over alice, bob : init
+alice -> bob: hello
+
+ref over bob
+    this can be on 
+    server liunes
+end ref
+@enduml

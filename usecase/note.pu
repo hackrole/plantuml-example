@@ -1,0 +1,20 @@
+@startuml
+:main admin: as admin
+(use the application) as (use)
+
+user -> (start)
+user --> (use)
+
+admin ---> (use)
+
+note right of admin : this is an example
+
+note right of (use)
+    a note can also
+    be on several lines
+end note
+
+note "this note is connected\nto serveral object." as N2
+(start) .. N2
+N2 .. (use)
+@enduml

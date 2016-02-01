@@ -1,0 +1,11 @@
+@startuml
+usecase UC1 as "You can use
+serveral lines to define your usecase.
+you also use separators
+--
+serveral separators are possible.
+==
+and you can add title:
+..Conclusion..
+this allows large description."
+@enduml

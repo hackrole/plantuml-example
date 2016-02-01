@@ -1,0 +1,14 @@
+@startuml
+bob ->x alice
+bob -> alice
+bob ->> alice
+bob -\ alice
+bob -/ alice
+bob \\- alice
+bob //-- alice
+bob ->o alice
+bob o\\-- alice
+
+bob <-> alice
+bob <->o alice
+@enduml
