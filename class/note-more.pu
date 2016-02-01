@@ -1,0 +1,19 @@
+@startuml
+
+class foo
+note left: on last defined class
+
+note top of object
+    in java <size:18>every</size><u>class</u>
+    <b>extends</p>
+    <i>this</i> one.
+end note
+
+note as N1
+    this note is <u>also</u>
+    <b><color: royalBlue>on serveral</color>
+    <s>words</s> lines
+    and this is hosted by <img:sourceforge.jpg>
+end note
+
+@enduml

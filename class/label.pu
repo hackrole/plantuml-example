@@ -1,0 +1,6 @@
+@startuml
+
+class01 "1" *-- "many" class02 : contains
+class03 o-- class04 : aggregation
+class05 --> "1" class06
+@enduml

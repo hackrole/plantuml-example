@@ -1,0 +1,8 @@
+@startuml
+object <|-- arraylist
+
+object : equals()
+arraylist : Object[] elementData
+arraylist : size()
+
+@enduml

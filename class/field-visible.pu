@@ -1,0 +1,8 @@
+@startuml
+class Dummy {
+    -field1
+    #field
+    ~method1()
+    +method2()
+}
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+class object << general >>
+object <|--- arraylist
+
+note top of object : In java, every class\nextends this one.
+
+note "this is a floating note" as N1
+note "this note is connected\nto several objects." as N2
+object .. N2
+N2 .. arraylist
+
+class Foo
+note left: On last defined class
+@enduml

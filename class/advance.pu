@@ -1,0 +1,29 @@
+@startuml
+class Foo1 {
+    You can use
+    several lines
+    ..
+    as you want
+    and group
+    ==
+    things togethoer.
+
+    --
+    you can have as many groups
+    as you want
+    --
+    end of class
+}
+
+class User {
+    .. Simple Getter ..
+    + getName()
+    + getAddress()
+    .. some setter ..
+    + setName()
+    __ private data __
+    int age
+    -- encrypted --
+    String password
+}
+@enduml
